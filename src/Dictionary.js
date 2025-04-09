@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
+import logo from "./logo.png";
 
 export default function Dictionary() {
     let [keyword,setKeyword]= useState(""); 
@@ -24,10 +25,12 @@ axios.get(apiUrl).then(handleResponse);
    
     return (
       <div className="Dictionary">
+        <img src={logo} alt="Logo" className="dictionary-image" />
+        <h4>Enter the word</h4>
         <form onSubmit={search}>
           <input type="search" onChange={handleKeywordChange} />
         </form>
-        <Results results={results}/>
+        <Results results={results} />
       </div>
     );
 

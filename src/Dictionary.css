@@ -1,0 +1,34 @@
+.Dictionary {
+  text-align: center; /* Center-aligns the content within the Dictionary component */
+  margin: 0 auto; /* Centers the component horizontally */
+  max-width: 600px; /* Optional: Set a max-width for the component */
+}
+
+.dictionary-image {
+  width: 80%; /* Set the width of the image */
+  height:300px;
+  margin-bottom: 20px; /* Space between the image and the search field */
+}
+
+form {
+  position: relative; /* Keeps the form static within its container */
+  width: 80%; /* Set the width of the form to match the image */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.search-input {
+  width: 100%; /* Set the width of the search input to fill the form */
+  padding: 12px; /* Add padding for better appearance */
+  border: 2px solid #007BFF; /* Add a bold border with a standout color */
+  border-radius: 8px; /* Round the corners more for a modern look */
+  background-color: #f9f9f9; /* Light background color for contrast */
+  font-size: 16px; /* Increase font size for better readability */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.search-input:focus {
+  border-color: #0056b3; /* Change border color on focus */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on focus */
+  outline: none; /* Remove default outline */
+}
