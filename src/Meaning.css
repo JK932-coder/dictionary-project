@@ -1,11 +1,38 @@
-.Meaning h3 {
-  font-size: 24px;
-  line-height: 1.5;
-  font-weight: bold;
+.Meaning {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
 }
 
-.Meaning .example {
-  color: #70757a;
-  font-style: italic;
-  margin-top: 10px;
+.pronunciation {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.definition-block {
+  margin-bottom: 20px;
+}
+
+.definition {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.example {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.images img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
 }
