@@ -51,10 +51,10 @@ export default function Dictionary(props) {
             <input
               type="search"
               className="search-field"
+              placeholder="i.e flowers, yoga,sunset"
               onChange={handleKeywordChange}
             />
           </form>
-          <div className="hint">i.e:sunset, town,wine,yoga</div>
         </section>
         <Results results={results} />
         <Photos photos={photos} />
