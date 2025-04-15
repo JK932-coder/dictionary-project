@@ -1,0 +1,20 @@
+.Dictionary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-field {
+  position:absolute;
+  top: 240px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18%; /* Adjust width as needed */
+  padding: 5px; /* Optional: Add padding for better appearance */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+.Dictionary section {
+    background: white;
+    margin-top: 40px;
+   
+}

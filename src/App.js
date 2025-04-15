@@ -13,7 +13,33 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by SheCodes</small>
+          <small>
+            {" "}
+            This project was coded by{" "}
+            <a
+              href="https://www.linkedin.com/in/jekaterinavaleviciene/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Jekaterina Valeviciene
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/JK932-coder/dictionary-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              open-sourced on GitHub
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://dictionary-jk.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              hosted on Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
